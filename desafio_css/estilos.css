@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.logo-header {
+    margin: 20px;
+}
+
+.navegador-superior {
+    background-color: rgb(179, 179, 179);
+    text-align: right;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navegador-superior a {
+    text-decoration: none;
+    margin: 0 20px;
+    color: #000;
+}
+.navegador-superior a:hover {
+    color: #069;
+}
+
+.main-contenedor {
+    max-width: 80%;
+    margin: 30px auto;
+}
+
+.seccion-explicativa .fab {
+    font-size: 6rem;
+}
+
+.footer-principal {
+    background-color: rgb(179, 179, 179);
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-principal a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+}
+
+.footer-principal a:hover {
+    color:rgb(92, 92, 92)
+}
+
+/* Colores de los iconos Fontawesome */
+.fa-html5 {
+    color:#e34c26;
+}
+
+.fa-css3-alt {
+    color: #1383db;
+}
