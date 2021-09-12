@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    width: 95%;
+    margin: 20px auto 0;
+}
+
+.cuadrado {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.color-rojo {
+    background: #f00;
+    color: yellow;
+}
+
+.color-negro {
+    background: #000;
+    color: white;
+}
