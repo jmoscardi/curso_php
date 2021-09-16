@@ -10,11 +10,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.contenedor {
-    display: flex;
-    flex-direction: column;
-}
-
 .col { padding: 2rem; }
 
 .col-info {
@@ -62,12 +57,9 @@ body {
     }
 }
 
-/* Estilos para lo que desktop */
+/* Estilos para desktop */
 @media screen and (min-width:768px) {
-    .contenedor {
-        flex-direction: row;
-        flex-wrap: nowrap;
-    }
+    .contenedor { display: flex; }
 
     .col { width: 50%; }
 
@@ -81,6 +73,7 @@ body {
 
     .col-info p { font-size: 1.2rem; }
 
+    /* En desktop si que cargue una imagen mas grande */
     .col-img { background-image: url(https://picsum.photos/id/1/1200); }
 
     .titulo { font-size: 3.5rem; }
