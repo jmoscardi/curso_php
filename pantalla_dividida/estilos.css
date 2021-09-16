@@ -83,7 +83,7 @@ body {
         display: flex;
         flex-wrap: wrap;
         align-content: center;
-        height: 100vh;
+        min-height: 100vh;
     }
 
     .col-info p {
