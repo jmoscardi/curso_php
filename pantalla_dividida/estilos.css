@@ -26,6 +26,8 @@ body {
     background: linear-gradient(0deg, rgba(209,137,0,1) 0%, rgba(255,226,0,1) 63%);
 }
 
+.col-info p { line-height: 1.5; }
+
 .col-img {
     background-position: center;
     background-size: cover;
