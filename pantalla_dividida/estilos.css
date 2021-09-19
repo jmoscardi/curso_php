@@ -10,6 +10,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+main { overflow: hidden; }
+
 .col { padding: 2rem; }
 
 .col-info {
