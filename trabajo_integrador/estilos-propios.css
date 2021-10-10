@@ -1,0 +1,88 @@
+/* HEADER
+------------------------- */
+
+.navbar-brand img { max-width: 100px; }
+
+.bg-dark { background: #333a40!important; }
+
+.btn-compra-tickets { color: #25a342 !important; }
+
+@media (min-width: 992px) {
+  .btn-compra-tickets {
+    border: 1px solid transparent;
+    border-radius: .8rem;
+  }
+  .btn-compra-tickets:hover {
+    color: #fff !important;
+    background: #25a342;
+  }
+}
+
+/* ESTILOS TITULOS
+-------------------------------------------------- */
+
+.titulo-gral {
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.titulo-gral span {
+  display: block;
+  font-weight: 700;
+  font-size: 2.2rem;
+} 
+
+/* CAROUSEL
+-------------------------------------------------- */
+
+.carousel-item {
+  background-size: cover;
+  background-position: center center;
+}
+.bg-carousel-ba1 { background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/ba1-min.jpg); }
+.bg-carousel-ba2 { background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/ba2-min.jpg); }
+.bg-carousel-ba3 { background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/ba3-min.jpg); }
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 37rem;
+  min-height: 95vh;
+}
+
+/* SECCION MITAD IMG, MITAD TEXTO
+-------------------------------------------------- */
+
+.bg-aside1 {
+  background: #333a40;
+  padding: 2rem;
+}
+
+/* FORMULARIO CONVIERTETE EN ORADOR
+-------------------------------------------------- */
+
+.btn-form {
+  background: #96c93e;
+  color: #fff !important;
+}
+.btn-form:hover { background: #74aa17; }
+
+/* FOOTER
+-------------------------------------------------- */
+
+#main-footer {
+  background: #1d3c4e;
+  color: #fff;
+  padding: 1.5rem;
+}
+
+#main-footer .nav-link { color: #fff; }
+#main-footer .nav-link:hover { opacity: .7; }
+
+@media (min-width: 992px) {
+  #main-footer .nav-link span { display: block; }
+}
