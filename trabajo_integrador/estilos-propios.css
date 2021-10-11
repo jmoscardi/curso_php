@@ -36,13 +36,15 @@
 /* CAROUSEL
 -------------------------------------------------- */
 
+.bg-carousel-ba1 { background-image: url(img/ba1-min.jpg); }
+.bg-carousel-ba2 { background-image: url(img/ba2-min.jpg); }
+.bg-carousel-ba3 { background-image: url(img/ba3-min.jpg); }
+
 .carousel-item {
   background-size: cover;
   background-position: center center;
 }
-.bg-carousel-ba1 { background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/ba1-min.jpg); }
-.bg-carousel-ba2 { background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/ba2-min.jpg); }
-.bg-carousel-ba3 { background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/ba3-min.jpg); }
+.carousel-item svg { opacity: .5; }
 
 .carousel-caption {
   bottom: 3rem;
