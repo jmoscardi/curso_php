@@ -12,22 +12,35 @@ var categoria       = document.getElementById("categoriaSelect");
 
 // Cálculo total a pagar
 function total_a_pagar() {
+
+    // Verifico si está ingresado al menos 1 ticket, sino que se detenga
+    if ( (cantidadTickets.value == 0) || (isNaN(cantidadTickets.value)) ) {
+        alert("Por favor, ingresá correctamente cantidad de tickets.");
+        return
+    }
+
+    // Verifico que haya seleccionado una categoría
+    if (categoria.value == "") {
+        alert("Por favor, seleccioná una categoría.");
+        return
+    }
+
     // Multiplico cantidad de tickets por el valor
-    let totalPesosTickets = (cantidadTickets.value) * valorTicket;
+    var totalValorTickets = (cantidadTickets.value) * valorTicket;
 
     // Aplico descuentos según categoría
-    if (categoria.value == 1){
-        totalPesosTickets = totalPesosTickets - (descuentoEstudiante / 100 * totalPesosTickets);
+    if (categoria.value == 1) {
+        totalValorTickets = totalValorTickets - (descuentoEstudiante / 100 * totalValorTickets);
     }
-    if (categoria.value == 2){
-        totalPesosTickets = totalPesosTickets - (descuentoTrainee / 100 * totalPesosTickets);
+    if (categoria.value == 2) {
+        totalValorTickets = totalValorTickets - (descuentoTrainee / 100 * totalValorTickets);
     }
-    if (categoria.value == 3){
-        totalPesosTickets = totalPesosTickets - (descuentoJunior / 100 * totalPesosTickets);
+    if (categoria.value == 3) {
+        totalValorTickets = totalValorTickets - (descuentoJunior / 100 * totalValorTickets);
     }
 
     // Inserto el valor en el HTML
-    totalPago.innerHTML = totalPesosTickets;
+    totalPago.innerHTML = totalValorTickets;
 }
 
 // Botón Resumen recibe un escuchador y la funcion del cálculo
