@@ -1,0 +1,17 @@
+btnEjercicio1.addEventListener('click', ejercicio1);
+btnEjercicio2.addEventListener('click', ejercicio2);
+btnEjercicio3.addEventListener('click', ejercicio3);
+btnEjercicio4.addEventListener('click', ejercicio4);
+btnEjercicio5.addEventListener('click', ejercicio5);
+btnEjercicio6.addEventListener('click', ejercicio6);
+btnEjercicio7.addEventListener('click', ejercicio7);
+btnEjercicio8.addEventListener('click', ejercicio8);
+btnEjercicio9.addEventListener('click', ejercicio9);
+btnEjercicio10.addEventListener('click', ejercicio10);
+btnEjercicio11.addEventListener('click', ejercicio11);
+btnEjercicio12.addEventListener('click', ejercicio12);
+btnEjercicio13.addEventListener('click', ejercicio13);
+btnEjercicio14.addEventListener('click', ejercicio14);
+btnEjercicio15.addEventListener('click', ejercicio15);
+btnEjercicio16.addEventListener('click', ejercicio16);
+btnEjercicio17.addEventListener('click', ejercicio17);
