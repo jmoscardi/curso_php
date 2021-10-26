@@ -1,5 +1,5 @@
 // Defino valor de ticket
-var valorTicket = 200;
+const valorTicket = 200;
 
 // Defino porcentajes de descuento según categoría
 var descuentoEstudiante = 80;
