@@ -92,7 +92,10 @@
   padding: 1.5rem;
 }
 
-#main-footer .nav-link { color: #fff; }
+#main-footer .nav-link {
+  color: #fff;
+  text-align: center;
+}
 #main-footer .nav-link:hover { opacity: .7; }
 
 @media (min-width: 992px) {
