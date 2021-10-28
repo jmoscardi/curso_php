@@ -101,6 +101,7 @@ btnResumen.addEventListener('click', total_a_pagar);
 
 // Función para el botón Borrar para que borre el valor
 function reset_total_a_pagar() {
+    quitarClaseError();
     totalPago.innerHTML = "";
 }
 btnBorrar.addEventListener('click', reset_total_a_pagar);
