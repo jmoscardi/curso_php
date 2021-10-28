@@ -13,19 +13,19 @@ let mail            = document.getElementById("mail");
 let cantidadTickets = document.getElementById("cantidadTickets");
 let categoria       = document.getElementById("categoriaSelect");
 
-// Función para quitar el estilo de error a los elementos
+// Función para quitar el estilo de error a los elementos del form
 function quitarClaseError() {
-    nombre.classList.remove('is-invalid');
-    apellido.classList.remove('is-invalid');
-    mail.classList.remove('is-invalid');
-    cantidadTickets.classList.remove('is-invalid');
-    categoria.classList.remove('is-invalid');
+    var x = document.querySelectorAll(".form-control, .form-select");
+    var i;
+    for (i = 0; i < x.length; i++) {
+        x[i].classList.remove('is-invalid');
+    }
 }
 
 // Cálculo total a pagar
 function total_a_pagar() {
 
-    // Ejecuto función para que al principio quite todos los estilos de error en los campos que los tuvieran
+    // Ejecuto función para que quite todos los estilos de error en los campos que los tuvieran
     quitarClaseError();
 
     // Verifico si lleno los siguientes campos, sino que aplique un estilo de error, haga foco en el campo y se detenga
