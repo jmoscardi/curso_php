@@ -15,8 +15,8 @@ let categoria       = document.getElementById("categoriaSelect");
 
 // Función para quitar el estilo de error a los elementos del form
 function quitarClaseError() {
-    var x = document.querySelectorAll(".form-control, .form-select");
-    var i;
+    let x = document.querySelectorAll(".form-control, .form-select");
+    let i;
     for (i = 0; i < x.length; i++) {
         x[i].classList.remove('is-invalid');
     }
