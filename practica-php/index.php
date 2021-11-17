@@ -13,7 +13,7 @@
     $datos = array(
         "nombre" => "Jorge", 
         "apellido" => "Moscardi",
-        "edad" =>"45",
+        "edad" => "45",
         "hobbie" => "Tocar el piano",
         "editor_preferido" => "Visual Studio Code");
 
