@@ -11,11 +11,11 @@
 <?php
  
     $datos = array(
-        "nombre"=>"Jorge", 
-        "apellido" =>"Moscardi",
+        "nombre" => "Jorge", 
+        "apellido" => "Moscardi",
         "edad" =>"45",
-        "hobbie" =>"Tocar el piano",
-        "editor_preferido" =>"Visual Studio Code");
+        "hobbie" => "Tocar el piano",
+        "editor_preferido" => "Visual Studio Code");
 
     echo "<strong>Nombre completo:</strong> ".$datos["nombre"]." ".$datos["apellido"];
     echo "<br>";
